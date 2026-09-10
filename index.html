@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Baithak CAFÉ</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Baithak CAFÉ</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="icon" type="image/png" href="images\favicon.png">
+        <!-- <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
 <body class="bg-[#131110] mx-[100px]">
-    <header class="max-w-[1440px]  sticky top-0 bg-[#131110] ">
+    <header class="max-w-[1440px] m-auto sticky top-0 z-1 bg-[#131110] ">
         <div class=" flex justify-between items-center py-3 border-b border-[#F7941D]/20">
             <div>
             <img class="w-[250px]" src="images\logo.png" alt="">
         </div>
         <div>
             <ul class="flex gap-[40px] font-['Poppins'] text-[#B5ADA5] font-medium">
-                <li><a href="index.html" class="hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">Home</a></li>
-                <li><a href="menu.html" class="hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">MENU</a></li>
-                <li><a href="gallery.html" class="hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">GALLERY</a></li>
-                <li><a href="contact.html" class="hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">CONTACT</a></li>
+                <li><a href="index.html" class="uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">Home</a></li>
+                <li><a href="menu.html" class="uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">MENU</a></li>
+                <li><a href="gallery.html" class="uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">GALLERY</a></li>
+                <li><a href="contact.html" class="uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">CONTACT</a></li>
             </ul>
         </div>
         <div class="">
@@ -47,7 +49,7 @@
                 </div>
             </div>
             <div>
-                <img class="w-full h-[560px] object-cover rounded-[40px] hover:bg-[#E68A4D] hover:text-[#131110] hover:scale-101 transition duration-300"  src="images/image3.jpg" alt="">
+                <img class="w-full h-[560px] object-cover rounded-[40px] hover:bg-[#E68A4D] hover:text-[#131110] hover:scale-101 transition duration-300 z-0"  src="images/image3.jpg" alt="">
             </div>
         </div>
     </section>
@@ -283,6 +285,21 @@
 
     <section class="max-w-[1440px] m-auto py-[60px] px-20 mt-10 flex">
         <div class="flex gap-30">
+            <div class="w-[50%] flex flex-col gap-10 text-center">
+                <span class="font-['Poppins'] text-[#F7941D] text-sm tracking-[0.2em] uppercase">COME, STAY A WHILE</span>
+                <h1 class="font-['Playfair_Display'] text-7xl text-[#F5EFE6] leading-tight">Your Table Is
+                    <span class="text-[#F7941D]">Waiting.</span>
+                </h1>
+                <p class="font-['Poppins'] text-base leading-8 text-[#B8B2AA]">At The Baithak, every visit is more than just a meal. It's a chance to slow down, enjoy soulful flavours, share meaningful conversations, and create moments worth remembering. Whether you're meeting friends,spending time with family, or simply enjoying your own quiet corner,were here to make every visit feel special.</p>
+                
+                <div class=" mx-auto text-left">
+                    <ul class="font-['Poppins'] text-lg text-[#B8B2AA] ">
+                        <li><span class="text-[#E68A4D] mr-2">✦</span>Freshly Prepared</li>
+                        <li class="pt-3"><span class="text-[#E68A4D] mr-2">✦</span>Warm Ambience</li>
+                        <li class="pt-3"><span class="text-[#E68A4D] mr-2">✦</span>Thoughtful Service</li>
+                    </div>
+                    <button class="w-fit mx-auto font-['Poppins'] text-sm bg-[#E68A4D] text-[#131110] px-8 py-3 rounded-lg hover:bg-[#F5EFE6] hover:text-[#E68A4D] transition duration-300">EXPERIENCE THE BAITHAK</button>
+                </div>
             <div class=" py-10 px-5 rounded-xl bg-[#1C1917] border border-yellow-800">
                 <h3 class="font-[Playfair_Display] text-3xl text-[#F5EFE6] pb-4">Reserve a Table</h3>
                 <form class="font-[Poppins] grid grid-cols-2 gap-6 ">
@@ -328,80 +345,64 @@
                     </div>
                 </form>
             </div>
-            <div class="w-[50%] flex flex-col gap-10 text-center">
-                <span class="font-['Poppins'] text-[#F7941D] text-sm tracking-[0.2em] uppercase">COME, STAY A WHILE</span>
-                <h1 class="font-['Playfair_Display'] text-7xl text-[#F5EFE6] leading-tight">Your Table Is
-                    <span class="text-[#F7941D]">Waiting.</span>
-                </h1>
-                <p class="font-['Poppins'] text-base leading-8 text-[#B8B2AA]">At The Baithak, every visit is more than just a meal. It's a chance to slow down, enjoy soulful flavours, share meaningful conversations, and create moments worth remembering. Whether you're meeting friends,spending time with family, or simply enjoying your own quiet corner,were here to make every visit feel special.</p>
-                
-                <div class=" mx-auto text-left">
-                    <ul class="font-['Poppins'] text-lg text-[#B8B2AA] ">
-                        <li><span class="text-[#E68A4D] mr-2">✦</span>Freshly Prepared</li>
-                        <li class="pt-3"><span class="text-[#E68A4D] mr-2">✦</span>Warm Ambience</li>
-                        <li class="pt-3"><span class="text-[#E68A4D] mr-2">✦</span>Thoughtful Service</li>
-                    </div>
-                    <button class="w-fit mx-auto font-['Poppins'] text-sm bg-[#E68A4D] text-[#131110] px-8 py-3 rounded-lg hover:bg-[#F5EFE6] hover:text-[#E68A4D] transition duration-300">EXPERIENCE THE BAITHAK</button>
-                </div>
             </div>
         </section>
-    
-    <footer class="max-w-[1440px] py-[60px] mt-10 bg-[#1C1917] px-[80px]">
-        <div class="flex flex-col gap-4 text-left">
+
+    <footer class="max-w-[1440px] m-auto py-[60px] mt-10 bg-[#1C1917] px-[80px]">
+        <div class="flex gap-20">
+            <div class="w-[40%] flex flex-col gap-4 text-left">
                 <span class="font-['Playfair_Display'] text-[#F5EFE6] text-4xl tracking-[0.2em] uppercase">THE BAITHAK </span>
                 <h1 class="font-['Poppins'] text-sm text-[#E68A4D] leading-tight">Where food meets conversation.</h1>
                 <p class="font-['Poppins'] text-sm leading-8 text-[#B8B2AA] ">A warm space for soulful flavours, handcrafted coffee, and meaningful moments. .</p>
+                <div>
+                    <ul class="text-[#B8B2AA] text-sm pt-5 flex gap-5">
+                        <i class="fa-brands fa-instagram text-[#E1306C] text-xl"></i>
+                        <i class="fa-brands fa-facebook text-[#1877F2] text-xl"></i>
+                        <i class="fa-brands fa-whatsapp text-[#25D366] text-xl"></i>
+                        <i class="fa-solid fa-location-dot text-[#EA4335] text-xl"></i>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-full flex justify-between pt-23 ">
+                <div>
+                    <span class="text-[#F5EFE6] text-sm uppercase"> EXPLORE </span>
+                    <ul class="text-[#B8B2AA] text-sm pt-5 flex flex-col gap-1">
+                        <li>Home</li>
+                        <li>Menu </li>
+                        <li>Gallery</li>
+                        <li>Reviews</li>
+                    </ul>
+                </div>
+                <div>
+                    <span class="text-[#F5EFE6] text-sm uppercase"> ABOUT US</span>
+                    <ul class="text-[#B8B2AA] text-sm pt-5 flex flex-col gap-1">
+                        <li>Our Story</li>
+                        <li>Our Space </li>
+                        <li>Our Menu</li>
+                    </ul>
+                </div>
+                <div>
+                    <span class="text-[#F5EFE6] text-sm uppercase"> QUICK LINKS </span>
+                    <ul class="text-[#B8B2AA] text-sm pt-5 flex flex-col gap-1">
+                        <li>Contact</li>
+                        <li>Book a Table </li>
+                        <li>Special Offers </li>
+                    </ul>
+                </div>
+                <div>
+                    <span class="text-[#F5EFE6] text-sm uppercase"> INFORMATION </span>
+                    <ul class="text-[#B8B2AA] text-sm pt-5 flex flex-col gap-1">
+                        <li>About Us </li>
+                        <li> Contact </li>
+                        <li> Privacy Policy</li>
+                        <li> Terms & Conditions </li>
+                    </ul>
+                </div>
+            </div>
+        </div><hr class="border-0 border-t border-[#F5EFE6]/20 mt-10">
+        <div class="text-[#B8B2AA] text-xs pt-10 text-center">
+            <p>© 2024 Cafe The Baithak by Chetan · Jaipur. All rights reserved. · Crafted with <span>♥</span> in Jaipur</p>
         </div>
-        <div class="flex justify-between pt-10">
-            <div>
-            <span class="text-[#F5EFE6] text-sm"> EXPLORE </span>
-            <ul class="text-[#B8B2AA] text-sm pt-5 flex flex-col gap-1">
-                <li>Home</li>
-                <li>Menu </li>
-                <li>Gallery</li>
-                <li>Reviews</li>
-            </ul>
-        </div>
-        <div>
-            <span class="text-[#F5EFE6] text-sm"> About Us</span>
-            <ul class="text-[#B8B2AA] text-sm pt-5 flex flex-col gap-1">
-                <li>Our Story</li>
-                <li>Our Space </li>
-                <li>Our Menu</li>
-            </ul>
-        </div>
-        <div>
-            <span class="text-[#F5EFE6] text-sm"> QUICK LINKS </span>
-            <ul class="text-[#B8B2AA] text-sm pt-5 flex flex-col gap-1">
-                <li>Contact</li>
-                <li>Book a Table </li>
-                <li>Special Offers </li>
-            </ul>
-        </div>
-        <div>
-            <span class="text-[#F5EFE6] text-sm"> INFORMATION</span>
-            <ul class="text-[#B8B2AA] text-sm pt-5 flex flex-col gap-1">
-                <li>About Us </li>
-                <li> Contact </li>
-                <li> Privacy Policy</li>
-                <li> Terms & Conditions </li>
-            </ul>
-        </div>
-        <div>
-            <span class="text-[#F5EFE6] text-sm"> CONNECT</span>
-            <ul class="text-[#B8B2AA] text-sm pt-5 flex flex-col gap-1">
-                <li>Instagram</li>
-                <li>Facebook </li>
-                <li> WhatsApp</li>
-                <li>Google Maps</li>
-            </ul>
-        </div>
-    </div><hr class="border-0 border-t border-[#F5EFE6]/20 mt-10">
-    <div class="text-[#B8B2AA] text-xs pt-10 text-center">
-        
-    <p>© 2024 Cafe CornerStone by Chetan · Jaipur. All rights reserved. · Crafted with <span>♥</span> in Jaipur</p>
-  
-    </div>
     </footer>
 </body>
 </html>

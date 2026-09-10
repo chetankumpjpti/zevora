@@ -3,26 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZEVORA CAFÉ</title>
+    <title>The Baithak CAFÉ</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header class="max-w-[1440px] m-auto bg-[#131110] fixed top-0 left-[40.5px] w-full z-50 bg-[#131110] border-b border-[#F7941D]/10">
-        <div class="max-w-7xl flex justify-between m-auto items-center py-3">
+<body class="bg-[#131110] mx-[100px]">
+    <header class="max-w-[1440px] m-auto sticky top-0 z-1 bg-[#131110] ">
+        <div class=" flex justify-between items-center py-3 border-b border-[#F7941D]/20">
             <div>
-            <img class="w-[200px] hover:scale-105 transition duration-100" src="images\logo.png" alt="">
+            <img class="w-[250px]" src="images\logo.png" alt="">
         </div>
         <div>
             <ul class="flex gap-[40px] font-['Poppins'] text-[#B5ADA5] font-medium">
-                <li><a href="index.html" class="hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">Home</a></li>
-                <li><a href="menu.html" class="hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">MENU</a></li>
-                <li><a href="gallery.html" class="hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">GALLERY</a></li>
-                <li><a href="reviews.html" class="hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">REVIEWS</a></li>
-                <li><a href="contact.html" class="hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">CONTACT</a></li>
+                <li><a href="index.html" class="uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">HOME</a></li>
+                <li><a href="menu.html" class="uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">MENU</a></li>
+                <li><a href="gallery.html" class="uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">GALLERY</a></li>
+                <li><a href="contact.html" class="uppercase hover:text-[#F7941D] hover:underline underline-offset-8 transition duration-300">CONTACT</a></li>
             </ul>
         </div>
         <div class="">
@@ -31,7 +30,7 @@
         </div>
     </header>
 
-    <section class="max-w-[1440px] m-auto bg-[#131110] pt-[200px] ">
+    <section class="max-w-[1440px] m-auto bg-[#131110] pt-[80px] ">
         <div>
             <div class="flex flex-col gap-[20px] text-center">
                 <div class="flex items-center justify-center gap-4">
@@ -56,23 +55,505 @@
                 <li class="text-[#B8B2AA] py-[9px] px-[20px] border border-[#B8B2AA]/30 rounded-full hover:border-[#E68A4D] hover:text-[#F5EFE6] hover:shadow-[0_0_15px_rgba(230,138,77,0.25)] hover:scale-[1.02] transition-all duration-300">desserts</li>
                 <li class="text-[#B8B2AA] py-[9px] px-[20px] border border-[#B8B2AA]/30 rounded-full hover:border-[#E68A4D] hover:text-[#F5EFE6] hover:shadow-[0_0_15px_rgba(230,138,77,0.25)] hover:scale-[1.02] transition-all duration-300">shake</li>
                 <li class="text-[#B8B2AA] py-[9px] px-[20px] border border-[#B8B2AA]/30 rounded-full hover:border-[#E68A4D] hover:text-[#F5EFE6] hover:shadow-[0_0_15px_rgba(230,138,77,0.25)] hover:scale-[1.02] transition-all duration-300">tea</li>
-                <li class="text-[#B8B2AA] py-[9px] px-[20px] border border-[#B8B2AA]/30 rounded-full hover:border-[#E68A4D] hover:text-[#F5EFE6] hover:shadow-[0_0_15px_rgba(230,138,77,0.25)] hover:scale-[1.02] transition-all duration-300">cold-drink</li>
+                <li class="text-[#B8B2AA] py-[9px] px-[20px] border border-[#B8B2AA]/30 rounded-full hover:border-[#E68A4D] hover:text-[#F5EFE6] hover:shadow-[0_0_15px_rgba(230,138,77,0.25)] hover:scale-[1.02] transition-all duration-300">smothies</li>
+                <li class="text-[#B8B2AA] py-[9px] px-[20px] border border-[#B8B2AA]/30 rounded-full hover:border-[#E68A4D] hover:text-[#F5EFE6] hover:shadow-[0_0_15px_rgba(230,138,77,0.25)] hover:scale-[1.02] transition-all duration-300">wraps</li>
                 </ul>
         </div>
-        <div class="grid grid-col-4 grid-row-8 my-10">
-            <div class="">
-                <img class="w-[345px] h-[258px]" src="images\download (2).jpg" alt="">
-                <div class="w-[345px] bg-red-800">
-                    <h3 class="font-['Playfair_Display'] text-2xl text-[#1C1917] pt-5">tometo soup</h3>
-                    <p class="font-['Poppins'] text-[#57534E] text-[15px] leading-7 mt-3">Wild mushroom blend, truffle essence, fresh cream and herbs</p>
-                    <div class="flex justify-between">
-                        <span class="font-['Playfair_Display']">₹400</span>
-                        <span class="font-['Poppins'] border rounded-full ">soup</span>
+
+        <div class="grid grid-cols-4 gap-4 my-10 ">
+            <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Creamy Tomato Basil Soup with Garlic Bread.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Tomato Basil Soup</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Creamy tomato soup infused with fresh basil and aromatic herbs.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹220</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">soup</span>
                     </div>
                 </div>
             </div>
-
+            <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Wild Mushroom Soup Recipe.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Wild Mushroom Soup</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Rich mushroom soup with herbs, cream and a hint of black pepper.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹280</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">soup</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Chinese Sweet Corn Soup.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Sweet Corn Soup</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Comforting sweet corn soup with fresh vegetables and mild spices.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹200</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">soup</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Creamy Broccoli Potato Soup.webp" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Creamy Broccoli Soup</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Smooth broccoli soup blended with cream and subtle herbs.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹240</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">soup</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\✨☕️.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Classic Cappuccino</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Rich espresso topped with silky steamed milk and soft foam.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹220</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">COFFEE</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Cappuccino.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Café Latte</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Smooth espresso blended with creamy steamed milk.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹240</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">COFFEE</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Mocha - Coffee Class.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Mocha Delight</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Espresso, chocolate and steamed milk finished with a creamy touch.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹260</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">COFFEE</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Hot Caramel Macchiato.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Caramel Macchiato</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Espresso layered with steamed milk and a delicate caramel drizzle.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹280</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">COFFEE</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Paneer Tikka.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Paneer Tikka</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Smoky grilled paneer marinated with aromatic Indian spices.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹320</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">INDIAN</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Crispy Masala Dosa full Recipe 👇.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Masala Dosa</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Crisp dosa served with flavorful potato masala and chutneys.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹240</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">INDIAN</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Delicious Chole Bhature _ A Classic Indian Food Delight.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Chole Bhature</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Spiced chickpeas served with fluffy, golden bhature.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹260</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">INDIAN</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Restaurant-Style Creamy Paneer Butter Masala.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Paneer Butter Masala</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Soft paneer cooked in a rich, creamy tomato gravy.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹340</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">INDIAN</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Kawa mrożona, przez którą człowiek nagle przestaje narzekać na upały.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Classic Cold Coffee</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Chilled creamy coffee blended with milk and a touch of sweetness.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹250</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">COLD DRINKS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Chocolate Milkshake Recipe_ Thick, Creamy Homemade Drink (printable PDF Download) - Etsy.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Chocolate Shake</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Thick chocolate shake with a rich and indulgent flavour.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹280</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">COLD DRINKS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Strawberry Milkshake Recipe.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Strawberry Shake</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Creamy strawberry blend made with fresh fruity flavours.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹270</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">COLD DRINKS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\La recette de la citronnade maison parfaite que tout le monde vous enviera cet été.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Fresh Lime Cooler</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Refreshing lime drink with a bright citrusy and chilled finish.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹290</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">COLD DRINKS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Pasta Arrabbiata Recipe Card, Spicy Italian Pasta Recipe, Easy Tomato Pasta, Digital Download PDF.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Arrabbiata Pasta</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Penne pasta tossed in a spicy tomato and herb sauce.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹300</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">PASTA</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Creamy Dreamy Fettuccini Drenched in Alfredo Sauce - NewsBreak.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Creamy Alfredo Pasta</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Silky white sauce pasta tossed with herbs and fresh vegetables.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹320</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">PASTA</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Lemon Basil Pesto Pasta_ .jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Basil Pesto Pasta</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Pasta coated in fragrant basil pesto with fresh herbs.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹340</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">PASTA</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Summer Garden Vegetable Pasta.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Garden Veg Pasta</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Fresh vegetables tossed with pasta in a light, flavorful sauce.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹320</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">PASTA</span>
+                    </div>
+                </div>
+            </div>
+                <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Black Truffle and Mixed Mushroom Pizza - Bothwell Cheese.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Truffle Mushroom Pizza</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Creamy mushroom topping, mozzarella and aromatic herbs.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹420</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">PIZZA</span>
+                    </div>
+                </div>
+                </div>
+                <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Pizza Picture! Delicious freshly ❤️.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Smoky Paneer Pizza</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Tandoori paneer, roasted onions, capsicum and melted cheese.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹400</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">PIZZA</span>
+                    </div>
+                </div>
+                </div>
+                <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\download (13).jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Four Cheese Pizza</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">A rich blend of four creamy cheeses with Italian herbs.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹450</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">PIZZA</span>
+                    </div>
+                </div>
+                </div>
+                <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Peri peri barbecue pizza (1).jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Spicy Peri Peri Pizza</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Mozzarella, jalapeños, roasted vegetables and peri peri seasoning.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹380</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">PIZZA</span>
+                    </div>
+                </div>
+                </div>
+                <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\பன்னீர் சாண்ட்விச்.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Smoked Paneer Melt</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Smoky paneer, caramelized onions, cheese and creamy house sauce.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹320</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">SANDWICH</span>
+                    </div>
+                </div>
+                </div>
+                <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Avocado Toast Recipe _ Healthy Breakfast, Brunch (PDF Download).jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Avocado Cheese Toastie</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Creamy avocado, melted cheese and herbs on toasted bread.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹340</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">SANDWICH</span>
+                    </div>
+                </div>
+                </div>
+                <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Panini au poulet _ la recette facile.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Peri Peri Grilled</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Grilled vegetables, cheese and spicy peri peri dressing.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹290</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">SANDWICH</span>
+                    </div>
+                </div>
+                </div>
+                <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Café Pascal.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Three Cheese Panini</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Grilled panini filled with three cheeses and Italian herbs.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹350</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">SANDWICH</span>
+                    </div>
+                </div>
+                </div>
+                <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\🍫 Milk Chocolate Crémeux Tart – Silky, Decadent, and Elegant 🍫__This Milk Chocolate .jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Belgian Chocolate Tart</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Rich Belgian chocolate filling on a crisp buttery tart base.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹320</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">DESSERT</span>
+                    </div>
+                </div>
+                </div>
+                <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Lotus Cheesecake_ einfacher Käsekuchen ohne Backen.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Caramel Lotus</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Creamy cheesecake with caramel and a buttery Lotus biscuit base.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹340</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">DESSERT</span>
+                    </div>
+                </div>
+                </div>
+                <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Chocolate Brownie Mousse.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Dark Chocolate Mousse</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Silky dark chocolate mousse with a rich, smooth finish.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹280</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">DESSERT</span>
+                    </div>
+                </div>
+                </div>
+                <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\download (14).jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Red Velvet Slice</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Soft red velvet cake layered with smooth cream cheese frosting.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹300</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">DESSERT</span>
+                    </div>
+                </div>
+                </div>
+                <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\download (15).jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Masala Chai</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Aromatic Indian tea brewed with milk, spices and ginger.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹140</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">TEA</span>
+                    </div>
+                </div>
+                </div>
+                <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Recipe_ Bourbon Peach Tea Smash.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Peach Iced Tea</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Refreshing chilled tea infused with sweet peach and citrus flavours.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹200</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">TEA</span>
+                    </div>
+                </div>
+                </div>
+                <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Berry Kombucha Mocktail Recipe.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Berry Bliss</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">A creamy blend of mixed berries, yogurt and a touch of honey.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹280</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">SMOOTHIES</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-
+            [0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\Smoothie à la mangue _ Silk Canada.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Mango Cream Smoothie</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Rich mango blended with creamy yogurt for a smooth tropical flavour.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹260</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">SMOOTHIES</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-
+            [0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\4591842147700194304.jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Blueberry Vanilla</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Blueberries blended with smooth vanilla and creamy yogurt.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹290</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">SMOOTHIES</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-
+            [0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\download (16).jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Paneer Tikka Wrap</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Smoky paneer tikka, crunchy vegetables and creamy mint dressing.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹300</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">WRAPS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-[10px] border border-transparent hover:border-[#D99A6C]/60 hover:-translate-y-2 hover:shadow-
+            [0_15px_35px_rgba(217,154,108,0.15)] transition-all duration-300 overflow-hidden">
+                <img class="w-[345px] h-[258px]" src="images\download (17).jpg" alt="">
+                <div class="w-fit bg-[#211A17] p-4">
+                    <h3 class="font-['Playfair_Display'] text-2xl text-[#F2E3D0]">Mexican Bean Wrap</h3>
+                    <p class="font-['Poppins'] text-[#BDAFA3] text-sm leading-7 mt-2">Spiced beans, cheese, salsa and fresh vegetables wrapped in soft flatbread.</p>
+                    <div class="flex justify-between pt-3">
+                        <span class="font-['Playfair_Display'] text-[#D99A6C] text-lg ">₹280</span>
+                        <span class="font-['Poppins'] text-xs uppercase tracking-wider text-[#A89586] border border-[#493A32] px-3 py-1 rounded-full hover:bg-[#A89586] hover:text-[#131110]">WRAPS</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-</body>
-</html> 
+
+    
+    <footer class="max-w-[1440px] m-auto py-[60px] mt-10 bg-[#1C1917] px-[80px]">
+        <div class="flex gap-20">
+            <div class="w-[40%] flex flex-col gap-4 text-left">
+                <span class="font-['Playfair_Display'] text-[#F5EFE6] text-4xl tracking-[0.2em] uppercase">THE BAITHAK </span>
+                <h1 class="font-['Poppins'] text-sm text-[#E68A4D] leading-tight">Where food meets conversation.</h1>
+                <p class="font-['Poppins'] text-sm leading-8 text-[#B8B2AA] ">A warm space for soulful flavours, handcrafted coffee, and meaningful moments. .</p>
+                <div>
+                    <ul class="text-[#B8B2AA] text-sm pt-5 flex gap-5">
+                        <i class="fa-brands fa-instagram text-[#E1306C] text-xl"></i>
+                        <i class="fa-brands fa-facebook text-[#1877F2] text-xl"></i>
+                        <i class="fa-brands fa-whatsapp text-[#25D366] text-xl"></i>
+                        <i class="fa-solid fa-location-dot text-[#EA4335] text-xl"></i>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-full flex justify-between pt-23 ">
+                <div>
+                    <span class="text-[#F5EFE6] text-sm"> EXPLORE </span>
+                    <ul class="text-[#B8B2AA] text-sm pt-5 flex flex-col gap-1">
+                        <li>Home</li>
+                        <li>Menu </li>
+                        <li>Gallery</li>
+                        <li>Reviews</li>
+                    </ul>
+                </div>
+                <div>
+                    <span class="text-[#F5EFE6] text-sm"> ABOUT US</span>
+                    <ul class="text-[#B8B2AA] text-sm pt-5 flex flex-col gap-1">
+                        <li>Our Story</li>
+                        <li>Our Space </li>
+                        <li>Our Menu</li>
+                    </ul>
+                </div>
+                <div>
+                    <span class="text-[#F5EFE6] text-sm"> QUICK LINKS </span>
+                    <ul class="text-[#B8B2AA] text-sm pt-5 flex flex-col gap-1">
+                        <li>Contact</li>
+                        <li>Book a Table </li>
+                        <li>Special Offers </li>
+                    </ul>
+                </div>
+                <div>
+                    <span class="text-[#F5EFE6] text-sm"> INFORMATION </span>
+                    <ul class="text-[#B8B2AA] text-sm pt-5 flex flex-col gap-1">
+                        <li>About Us </li>
+                        <li> Contact </li>
+                        <li> Privacy Policy</li>
+                        <li> Terms & Conditions </li>
+                    </ul>
+                </div>
+            </div>
+        </div><hr class="border-0 border-t border-[#F5EFE6]/20 mt-10">
+        <div class="text-[#B8B2AA] text-xs pt-10 text-center">
+            <p>© 2024 Cafe The Baithak by Chetan · Jaipur. All rights reserved. · Crafted with <span>♥</span> in Jaipur</p>
+        </div>
+    </footer>
+
+    </body>
+    </html>
